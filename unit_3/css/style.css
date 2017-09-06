@@ -1,0 +1,64 @@
+#image {
+margin-bottom: 2%;
+
+
+}
+
+h1, p, article {
+  text-align: center;
+}
+
+h1{
+margin-top: : 5%;
+margin-bottom: 0;
+font-family: monospace;
+font-size: 45px;
+}
+
+#slogan, #offerings  {
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: : 5%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 90px 0px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 18px;
+  }
+
+article {
+  font-family: monospace;
+  font-size: 26px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+hx {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+#offerings, hx {
+  margin-left: 3%;
+}
+
+footer {
+  text-align: center;
+  font-style: italic;
+}
