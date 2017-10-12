@@ -1,42 +1,52 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Mr+De+Haviland');
+
+* {margin:0; padding:0; box-sizing:border-box;}
+
 body {
   color:#333;
   font-family: 'Antic Slab', serif;
-  font-size:;
-  line-height:1.3;
+  line-height:1.5;
 }
 
 #logo{
   font-size: 40px;
   text-align: left;
-  Padding: 2% 9% 0 6%;
+  margin-left: 2%;
 }
 
 #slogan {
   font-family: 'Mr De Haviland', cursive;
   font-size: 45px;
-  padding: 0 2% 5%;
+  margin-left: 2%;
 }
 
- header img {
-  text-align: right;
-  display: inline;
-  position: relative;
-  border: 5px solid pink;
+header div{
+  width: 100%;
+}
+
+ #cart {
+  border: 4px solid black;
   border-radius: 60px;
+  width: 55px;
+  padding: .5%;
+
 }
 
 nav{
-  background-color: pink;
+  background-color: black;
   padding: 1%;
+  margin: 4%:
+  width: 100%;
 }
 
 nav a {
-  color: black;
+  color: white;
+  font-size: 20px;
   text-align: center;
   text-decoration: none;
-  letter-spacing: 2px;
-  margin: 115px;
+  letter-spacing: 3px;
+  margin: 7%;
+  position: relative;
 }
 
 #hero {
@@ -48,14 +58,6 @@ nav a {
   position: relative;
   width: 100%;
 
-}
-
-li  {
-    display: flex;
-    list-style: none;
-    color: black;
-    font-family: 'Antic Slab', serif;
-    font-size: 20px;
 }
 
 #image {
@@ -76,30 +78,42 @@ h1 {
 }
 h1 span {
   color: pink;
-  font-weight: bold;
 }
 
 h2 {
-  font-family: 'Mr De Haviland', cursive;
-  font-size: 40px;
-  text-align: center;
+  color: pink;
+  font-family: 'Antic Slab', serif;
+  font-size: 20px;
 }
 
-#banner{
-  baclground-color: white;
+ #banner div {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.item {
-  display: inline;
-  margin:1.5%;
-  width: 20%;
-  float:left;
-  background-color: ;
-}
+ .item {
+   display: block;
+   margin: 0 auto;
+ }
 
-footer {
+ .clearfix:after {
+     display: block;
+     clear: both;
+ }
+
+footer p {
   text-align: center;
   font-family: 'Antic Slab', serif;
   background-color: black;
   color: white;
+  float: none;
+}
+
+@media screen only and (max-width: 600px){
+  #hero{
+    display: none;
+  }
+  h1 {
+    display: none;
+  }
 }
