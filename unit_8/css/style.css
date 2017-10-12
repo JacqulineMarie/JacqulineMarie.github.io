@@ -11,45 +11,47 @@ body {
 #logo{
   font-size: 2.5em;
   text-align: left;
-  margin-left: 7%;
+  /* margin-left: 7%; */
   width: auto;
 }
 
 #slogan {
   font-family: 'Parisienne', cursive;
   font-size: 2em;
-  margin-left: 2%;
+  /* margin-left: 2%; */
   width: auto;
 }
 
  #cart {
   border: 3px solid #538094;
-  border-radius: 60px;
+  border-radius: 50%;
   width: 57px;
-  padding: 1%;
+  /* padding: 1%; */
+  transform: translateY(50%);
 }
 
 header div {
   float: left;
-  margin: 1% 1.5% 5%;
-  width: 80%;
+  margin: 1% 0 0;
+  /* width: 80%; */
 }
 
 aside {
   float: right;
-  margin: 2% 0;
-  width: 12%;
+  margin: 2% 0 0;
+  width: max-content;
   text-align: center;
 }
 
 #mySearch {
   width:auto;
+  margin-top: 1em;
 }
 
 nav {
-  padding: 2.5%;
-  margin: 2% 25%;
+  margin: 1em 0;
   padding-bottom: 0;
+  text-align: center;
 }
 
 nav a {
@@ -57,13 +59,14 @@ nav a {
   font-size: 1.2em;
   text-decoration: none;
   letter-spacing: 3px;
-  margin: 4.5%;
-  position: relative;
+  margin: 0 1em;
+  padding: 1em;
+  display: inline-block;
 }
 
 #hero {
   background:url(../images/beach_house.jpg);
-  background-size: contain;
+  background-size: 1200px;
   background-repeat:no-repeat;
   background-position: center;
   height: 85vh;
@@ -97,7 +100,8 @@ h1{
   font-size: 2em;
   text-align: center;
   word-wrap: normal;
-  margin: 10% 30%;
+  margin: 5em auto;
+  max-width: 600px;
 }
 
 h2 {
@@ -109,24 +113,25 @@ h2 {
 }
 
  #banner {
-  width: 90%;
+  max-width: 1200px;
   margin: auto;
-  display: table;
+  /* display: table; */
 }
 
 #banner img{
-  width: 250px;
-  height: 200px;
+  width: 100%;
 }
 
  .item {
-   margin: 2.5%;
+   width: 25%;
    float: left;
+   padding: 1em;
  }
 
  .clearfix:after {
      display: block;
      clear: both;
+     content: "";
  }
 
 footer {
@@ -158,21 +163,18 @@ footer a {
   border-radius: 20%;
 }
 
-@media screen only and (max-width: 600px){
+@media only screen and (max-width: 600px){
    #hero {
-    background-size: auto;
     display: none;
   }
   h1 {
-    font-size: 1em;
-
+    font-size: 1.5em;
+    margin: 5em auto;
+    padding: 1em;
+  }
+  .item {
+    width:100%;
   }
 
 }
 
-@media screen only and (min-width: 1200px){
-   #hero {
-    background-size: auto;
-  }
-
-}
