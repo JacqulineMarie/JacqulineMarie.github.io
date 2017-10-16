@@ -99,7 +99,7 @@ h1 span {
   color: #538094;
 }*/
 
-p #quote {
+ #quote {
   font-family: 'Parisienne', cursive;
   font-size: 2em;
   text-align: center;
@@ -108,7 +108,7 @@ p #quote {
   max-width: 600px;
 }
 
-#banner p {
+.item {
   color: black;
   font-family: 'Antic Slab', serif;
   font-size: .5em;
