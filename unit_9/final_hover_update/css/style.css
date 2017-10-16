@@ -108,7 +108,7 @@ h1 span {
   max-width: 600px;
 }
 
-.item {
+ p .item  {
   color: black;
   font-family: 'Antic Slab', serif;
   font-size: .7em;
