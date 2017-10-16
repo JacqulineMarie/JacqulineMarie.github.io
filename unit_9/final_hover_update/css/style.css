@@ -63,7 +63,7 @@ nav {
   display: inline-block;
 }
 
-a:hover {
+nav a:hover {
   color: white;
   background-color: black;
 }
@@ -133,7 +133,7 @@ h2 {
    padding: 1.5em;
  }
 
- .item:hover img {
+ .link:hover {
    opacity: .4;
  }
 
