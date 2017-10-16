@@ -26,9 +26,7 @@ body {
 }
 
  #cart {
-  border: 3px solid #538094;
-  border-radius: 50%;
-  width: 45px;
+  width: 50px;
   transform: translateY(50%);
 }
 
@@ -71,6 +69,11 @@ nav a {
   display: inline-block;
 }
 
+a:hover {
+  color: white;
+  background-color: black;
+}
+
 .clearfix:after {
     display: block;
     clear: both;
@@ -106,6 +109,17 @@ h2 {
   padding: 1em;
 }
 
+.top:hover{
+  opacity: .4;
+}
+
+.middle:hover{
+  opacity: .4;
+}
+
+.bottom:hover{
+  opacity: .4;
+}
 
  footer {
    text-align: center;
