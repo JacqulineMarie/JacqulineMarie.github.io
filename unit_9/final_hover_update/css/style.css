@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Antic+Slab|Parisienne');
+
+* {margin:0; padding:0; box-sizing:border-box;}
+
+#wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+body {
+  color:#333;
+  font-family: 'Antic Slab', serif;
+  line-height:1.5;
+}
+
+#logo{
+  font-size: 2.5em;
+  text-align: left;
+  width: auto;
+}
+
+#slogan {
+  font-family: 'Parisienne', cursive;
+  font-size: 2em;
+  width: auto;
+}
+
+ #cart {
+  width: 50px;
+  transform: translateY(50%);
+}
+
+header div {
+  float: left;
+  margin: 1% 0 0;
+}
+
+aside {
+  float: right;
+  margin: 2% 0 0;
+  width: max-content;
+  text-align: center;
+}
+
+#mySearch {
+  width:auto;
+  margin-top: 1em;
+}
+
+nav {
+  margin: 1em 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+ nav a {
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  letter-spacing: 3px;
+  margin: 0 1em;
+  padding: 1em;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: white;
+  background-color: black;
+}
+
+#hero {
+  background:url(../images/beach_house.jpg);
+  background-size: 1000px;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 85vh;
+  position: relative;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+
+
+/*h1 {
+  width: 20em;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255,255,255,.75);
+  padding: 1em;
+  font-family: 'Antic Slab', serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+
+h1 span {
+  color: #538094;
+}*/
+
+#quote {
+  font-family: 'Parisienne', cursive;
+  font-size: 2em;
+  text-align: center;
+  word-wrap: normal;
+  margin: 4em auto;
+  max-width: 600px;
+}
+
+div p {
+  color: black;
+  font-family: 'Antic Slab', serif;
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+ #banner {
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+#banner img{
+  width: 100%;
+  text-align: center;
+}
+
+ .item{
+   width: 25%;
+   float: left;
+   padding: 1.5em;
+ }
+
+ .link:hover {
+   opacity: .4;
+ }
+
+ .clearfix:after {
+     display: block;
+     clear: both;
+     content: "";
+ }
+
+footer {
+  text-align: center;
+  font-family: 'Antic Slab', serif;
+  background-color: black;
+  color: black;
+}
+
+footer p{
+  padding-top: 3%;
+  font-size: 1em;
+  color: white;
+}
+
+footer a {
+  color: #538094;
+}
+
+#facebook img {
+  width: 50px;
+  margin: 3% 1%;
+}
+
+#insta img {
+  width: 50px;
+  background-color: white;
+  margin: 3% 1%;
+  border-radius: 20%;
+}
+
+    /*Media Queries*/
+
+@media only screen and (max-width: 768px){
+  #wrapper{
+    max-width: 750px;
+    margin: auto;
+  }
+  nav a{
+    margin: 2em 1em 0;
+    padding: 0;
+
+  }
+   #hero {
+    background-size: contain;
+    margin: auto;
+    max-width: 700px;
+    background-position: center;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin: 3em auto;
+    padding: 1em;
+  }
+  #banner{
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+  }
+  .item {
+    width:50%;
+    margin: auto;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 375px){
+  #wrapper{
+    max-width: 365px;
+    margin: auto;
+  }
+  #logo{
+    text-align: center;
+  }
+  header div, aside{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  nav{
+  margin-top: 12%;
+  }
+  nav a{
+    color: white;
+    background: black;
+    display: block;
+    border: 3px solid white;
+    margin: 1% 0;
+  }
+   #hero {
+    display: none;
+  }
+  h1 {
+    font-size: 1.5em;
+    margin: 3em auto;
+    padding: 1em;
+  }
+  .item {
+    width:100%;
+  }
+  .item img{
+    width: 80%;
+    height: auto;
+  }
+}
