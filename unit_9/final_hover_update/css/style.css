@@ -92,14 +92,18 @@ nav a:hover {
   font-family: 'Antic Slab', serif;
   font-size: 26px;
   text-align: center;
-}*/
+}
 
 
 h1 span {
   color: #538094;
-}
+}*/
 
+<<<<<<< HEAD
 #quote {
+=======
+  #quote {
+>>>>>>> 05534f532799bd901ca1ab052150108ad87aa0f9
   font-family: 'Parisienne', cursive;
   font-size: 2em;
   text-align: center;
@@ -108,10 +112,14 @@ h1 span {
   max-width: 600px;
 }
 
+<<<<<<< HEAD
 div p {
+=======
+ .item p {
+>>>>>>> 05534f532799bd901ca1ab052150108ad87aa0f9
   color: black;
   font-family: 'Antic Slab', serif;
-  font-size: 1.2em;
+  font-size: .7em;
   text-align: center;
   letter-spacing: 3px;
 }
